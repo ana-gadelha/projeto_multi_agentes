@@ -3,3 +3,4 @@ pandas
 fpdf
 python-dotenv
 crewai
+pysqlite3-binary
