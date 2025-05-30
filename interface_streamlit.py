@@ -8,6 +8,9 @@ from sistema_multi_agentes import (
     gerar_pdf,
     gerar_txt
 )
+import sys
+import pysqlite3
+sys.modules["sqlite3"] = pysqlite3
 import os
 
 #configurando a página Streamlit
